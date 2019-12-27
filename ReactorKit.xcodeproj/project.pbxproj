@@ -7,45 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1834E68C23607A11003C5ED6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1834E68A23607A11003C5ED6 /* RxCocoa.framework */; };
-		1834E68D23607A11003C5ED6 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1834E68B23607A11003C5ED6 /* RxSwift.framework */; };
-		1834E68E23607A9B003C5ED6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1834E68A23607A11003C5ED6 /* RxCocoa.framework */; };
-		1834E68F23607A9B003C5ED6 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1834E68B23607A11003C5ED6 /* RxSwift.framework */; };
-		OBJ_224 /* ActionSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ActionSubject.swift */; };
-		OBJ_225 /* AssociatedObjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* AssociatedObjectStore.swift */; };
-		OBJ_226 /* Reactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Reactor.swift */; };
-		OBJ_227 /* StateRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* StateRelay.swift */; };
-		OBJ_228 /* StoryboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* StoryboardView.swift */; };
-		OBJ_229 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Stub.swift */; };
-		OBJ_230 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* View.swift */; };
-		OBJ_233 /* ReactorKitRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ReactorKit::ReactorKitRuntime::Product" /* ReactorKitRuntime.framework */; };
-		OBJ_254 /* ReactorKitRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* ReactorKitRuntime.m */; };
-		OBJ_256 /* ReactorKitRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* ReactorKitRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		OBJ_262 /* ActionSubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* ActionSubjectTests.swift */; };
-		OBJ_263 /* AssociatedObjectStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* AssociatedObjectStoreTests.swift */; };
-		OBJ_264 /* ReactorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* ReactorTests.swift */; };
-		OBJ_265 /* StateRelayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* StateRelayTests.swift */; };
-		OBJ_266 /* ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* ViewTests.swift */; };
-		OBJ_270 /* ReactorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ReactorKit::ReactorKit::Product" /* ReactorKit.framework */; };
-		OBJ_272 /* ReactorKitRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ReactorKit::ReactorKitRuntime::Product" /* ReactorKitRuntime.framework */; };
+		8EF57D0523B63539003DB744 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF57D0323B63539003DB744 /* RxRelay.framework */; };
+		8EF57D0623B63539003DB744 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF57D0423B63539003DB744 /* RxCocoa.framework */; };
+		8EF57D0723B63544003DB744 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF57D0423B63539003DB744 /* RxCocoa.framework */; };
+		8EF57D0823B63544003DB744 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF57D0323B63539003DB744 /* RxRelay.framework */; };
+		OBJ_237 /* ActionSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ActionSubject.swift */; };
+		OBJ_238 /* Exports.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Exports.swift */; };
+		OBJ_239 /* IdentityEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* IdentityEquatable.swift */; };
+		OBJ_240 /* IdentityHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* IdentityHashable.swift */; };
+		OBJ_241 /* Reactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Reactor.swift */; };
+		OBJ_242 /* StateRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* StateRelay.swift */; };
+		OBJ_243 /* StoryboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* StoryboardView.swift */; };
+		OBJ_244 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Stub.swift */; };
+		OBJ_245 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* View.swift */; };
+		OBJ_246 /* WeakMapTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* WeakMapTable.swift */; };
+		OBJ_249 /* ReactorKitRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ReactorKit::ReactorKitRuntime::Product" /* ReactorKitRuntime.framework */; };
+		OBJ_270 /* ReactorKitRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* ReactorKitRuntime.m */; };
+		OBJ_272 /* ReactorKitRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* ReactorKitRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18E5072C235F97C200C0F939 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "ReactorKit::ReactorKitRuntime";
-			remoteInfo = ReactorKitRuntime;
-		};
-		18E50732235F97C200C0F939 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "ReactorKit::ReactorKit";
-			remoteInfo = ReactorKit;
-		};
-		18E50734235F97C200C0F939 /* PBXContainerItemProxy */ = {
+		8EF57CF823B63366003DB744 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -55,142 +37,151 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1834E68823607823003C5ED6 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		1834E68A23607A11003C5ED6 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		1834E68B23607A11003C5ED6 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		OBJ_10 /* AssociatedObjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedObjectStore.swift; sourceTree = "<group>"; };
-		OBJ_11 /* Reactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reactor.swift; sourceTree = "<group>"; };
-		OBJ_12 /* StateRelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateRelay.swift; sourceTree = "<group>"; };
-		OBJ_13 /* StoryboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardView.swift; sourceTree = "<group>"; };
-		OBJ_14 /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
-		OBJ_15 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		OBJ_17 /* ReactorKitRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactorKitRuntime.m; sourceTree = "<group>"; };
-		OBJ_19 /* ReactorKitRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactorKitRuntime.h; sourceTree = "<group>"; };
-		OBJ_216 /* Design */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Design; sourceTree = SOURCE_ROOT; };
-		OBJ_217 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = SOURCE_ROOT; };
-		OBJ_218 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = SOURCE_ROOT; };
-		OBJ_22 /* ActionSubjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSubjectTests.swift; sourceTree = "<group>"; };
-		OBJ_23 /* AssociatedObjectStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedObjectStoreTests.swift; sourceTree = "<group>"; };
-		OBJ_24 /* ReactorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorTests.swift; sourceTree = "<group>"; };
-		OBJ_25 /* StateRelayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateRelayTests.swift; sourceTree = "<group>"; };
-		OBJ_26 /* ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTests.swift; sourceTree = "<group>"; };
-		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		8EF57D0323B63539003DB744 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		8EF57D0423B63539003DB744 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		OBJ_10 /* Exports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exports.swift; sourceTree = "<group>"; };
+		OBJ_11 /* IdentityEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityEquatable.swift; sourceTree = "<group>"; };
+		OBJ_12 /* IdentityHashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityHashable.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Reactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reactor.swift; sourceTree = "<group>"; };
+		OBJ_14 /* StateRelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateRelay.swift; sourceTree = "<group>"; };
+		OBJ_15 /* StoryboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardView.swift; sourceTree = "<group>"; };
+		OBJ_16 /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		OBJ_17 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		OBJ_18 /* WeakMapTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakMapTable.swift; sourceTree = "<group>"; };
+		OBJ_20 /* ReactorKitRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactorKitRuntime.m; sourceTree = "<group>"; };
+		OBJ_22 /* ReactorKitRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactorKitRuntime.h; sourceTree = "<group>"; };
+		OBJ_222 /* Design */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Design; sourceTree = SOURCE_ROOT; };
+		OBJ_223 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = SOURCE_ROOT; };
+		OBJ_224 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = SOURCE_ROOT; };
+		OBJ_225 /* codecov.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codecov.yml; sourceTree = "<group>"; };
+		OBJ_226 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_227 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		OBJ_228 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_229 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		OBJ_230 /* ReactorKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReactorKit.podspec; sourceTree = "<group>"; };
+		OBJ_231 /* Gemfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
+		OBJ_25 /* ActionSubjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSubjectTests.swift; sourceTree = "<group>"; };
+		OBJ_26 /* IdentityEquatableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityEquatableTests.swift; sourceTree = "<group>"; };
+		OBJ_27 /* IdentityHashableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityHashableTests.swift; sourceTree = "<group>"; };
+		OBJ_28 /* ReactorSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorSchedulerTests.swift; sourceTree = "<group>"; };
+		OBJ_29 /* ReactorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorTests.swift; sourceTree = "<group>"; };
+		OBJ_30 /* StateRelayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateRelayTests.swift; sourceTree = "<group>"; };
+		OBJ_31 /* ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTests.swift; sourceTree = "<group>"; };
+		OBJ_32 /* WeakMapTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakMapTableTests.swift; sourceTree = "<group>"; };
 		OBJ_9 /* ActionSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSubject.swift; sourceTree = "<group>"; };
 		"ReactorKit::ReactorKit::Product" /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"ReactorKit::ReactorKitRuntime::Product" /* ReactorKitRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactorKitRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"ReactorKit::ReactorKitTests::Product" /* ReactorKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReactorKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_231 /* Frameworks */ = {
+		OBJ_247 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				1834E68C23607A11003C5ED6 /* RxCocoa.framework in Frameworks */,
-				1834E68D23607A11003C5ED6 /* RxSwift.framework in Frameworks */,
-				OBJ_233 /* ReactorKitRuntime.framework in Frameworks */,
+				OBJ_249 /* ReactorKitRuntime.framework in Frameworks */,
+				8EF57D0723B63544003DB744 /* RxCocoa.framework in Frameworks */,
+				8EF57D0823B63544003DB744 /* RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_257 /* Frameworks */ = {
+		OBJ_273 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				1834E68E23607A9B003C5ED6 /* RxCocoa.framework in Frameworks */,
-				1834E68F23607A9B003C5ED6 /* RxSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_267 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_270 /* ReactorKit.framework in Frameworks */,
-				OBJ_272 /* ReactorKitRuntime.framework in Frameworks */,
+				8EF57D0523B63539003DB744 /* RxRelay.framework in Frameworks */,
+				8EF57D0623B63539003DB744 /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1834E68923607A11003C5ED6 /* Frameworks */ = {
+		8EF57D0223B63539003DB744 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1834E68A23607A11003C5ED6 /* RxCocoa.framework */,
-				1834E68B23607A11003C5ED6 /* RxSwift.framework */,
+				8EF57D0423B63539003DB744 /* RxCocoa.framework */,
+				8EF57D0323B63539003DB744 /* RxRelay.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		OBJ_16 /* ReactorKitRuntime */ = {
+		OBJ_19 /* ReactorKitRuntime */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_17 /* ReactorKitRuntime.m */,
-				OBJ_18 /* include */,
+				OBJ_20 /* ReactorKitRuntime.m */,
+				OBJ_21 /* include */,
 			);
 			name = ReactorKitRuntime;
 			path = Sources/ReactorKitRuntime;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_18 /* include */ = {
+		OBJ_21 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_19 /* ReactorKitRuntime.h */,
+				OBJ_22 /* ReactorKitRuntime.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		OBJ_20 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_21 /* ReactorKitTests */,
-			);
-			name = Tests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_209 /* Products */ = {
+		OBJ_215 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				"ReactorKit::ReactorKitRuntime::Product" /* ReactorKitRuntime.framework */,
-				"ReactorKit::ReactorKitTests::Product" /* ReactorKitTests.xctest */,
 				"ReactorKit::ReactorKit::Product" /* ReactorKit.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_21 /* ReactorKitTests */ = {
+		OBJ_23 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_22 /* ActionSubjectTests.swift */,
-				OBJ_23 /* AssociatedObjectStoreTests.swift */,
-				OBJ_24 /* ReactorTests.swift */,
-				OBJ_25 /* StateRelayTests.swift */,
-				OBJ_26 /* ViewTests.swift */,
+				OBJ_24 /* ReactorKitTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_24 /* ReactorKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* ActionSubjectTests.swift */,
+				OBJ_26 /* IdentityEquatableTests.swift */,
+				OBJ_27 /* IdentityHashableTests.swift */,
+				OBJ_28 /* ReactorSchedulerTests.swift */,
+				OBJ_29 /* ReactorTests.swift */,
+				OBJ_30 /* StateRelayTests.swift */,
+				OBJ_31 /* ViewTests.swift */,
+				OBJ_32 /* WeakMapTableTests.swift */,
 			);
 			name = ReactorKitTests;
 			path = Tests/ReactorKitTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				1834E68823607823003C5ED6 /* Cartfile */,
-				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_20 /* Tests */,
-				OBJ_209 /* Products */,
-				OBJ_216 /* Design */,
-				OBJ_217 /* Documentation */,
-				OBJ_218 /* Examples */,
-				1834E68923607A11003C5ED6 /* Frameworks */,
+				OBJ_23 /* Tests */,
+				OBJ_215 /* Products */,
+				OBJ_222 /* Design */,
+				OBJ_223 /* Documentation */,
+				OBJ_224 /* Examples */,
+				OBJ_225 /* codecov.yml */,
+				OBJ_226 /* LICENSE */,
+				OBJ_227 /* Makefile */,
+				OBJ_228 /* README.md */,
+				OBJ_229 /* Gemfile */,
+				OBJ_230 /* ReactorKit.podspec */,
+				OBJ_231 /* Gemfile.lock */,
+				8EF57D0223B63539003DB744 /* Frameworks */,
 			);
+			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_8 /* ReactorKit */,
-				OBJ_16 /* ReactorKitRuntime */,
+				OBJ_19 /* ReactorKitRuntime */,
 			);
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -199,12 +190,15 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* ActionSubject.swift */,
-				OBJ_10 /* AssociatedObjectStore.swift */,
-				OBJ_11 /* Reactor.swift */,
-				OBJ_12 /* StateRelay.swift */,
-				OBJ_13 /* StoryboardView.swift */,
-				OBJ_14 /* Stub.swift */,
-				OBJ_15 /* View.swift */,
+				OBJ_10 /* Exports.swift */,
+				OBJ_11 /* IdentityEquatable.swift */,
+				OBJ_12 /* IdentityHashable.swift */,
+				OBJ_13 /* Reactor.swift */,
+				OBJ_14 /* StateRelay.swift */,
+				OBJ_15 /* StoryboardView.swift */,
+				OBJ_16 /* Stub.swift */,
+				OBJ_17 /* View.swift */,
+				OBJ_18 /* WeakMapTable.swift */,
 			);
 			name = ReactorKit;
 			path = Sources/ReactorKit;
@@ -213,11 +207,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		OBJ_255 /* Headers */ = {
+		OBJ_271 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_256 /* ReactorKitRuntime.h in Headers */,
+				OBJ_272 /* ReactorKitRuntime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,15 +220,15 @@
 /* Begin PBXNativeTarget section */
 		"ReactorKit::ReactorKit" /* ReactorKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_220 /* Build configuration list for PBXNativeTarget "ReactorKit" */;
+			buildConfigurationList = OBJ_233 /* Build configuration list for PBXNativeTarget "ReactorKit" */;
 			buildPhases = (
-				OBJ_223 /* Sources */,
-				OBJ_231 /* Frameworks */,
+				OBJ_236 /* Sources */,
+				OBJ_247 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_236 /* PBXTargetDependency */,
+				OBJ_252 /* PBXTargetDependency */,
 			);
 			name = ReactorKit;
 			productName = ReactorKit;
@@ -243,11 +237,11 @@
 		};
 		"ReactorKit::ReactorKitRuntime" /* ReactorKitRuntime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_250 /* Build configuration list for PBXNativeTarget "ReactorKitRuntime" */;
+			buildConfigurationList = OBJ_266 /* Build configuration list for PBXNativeTarget "ReactorKitRuntime" */;
 			buildPhases = (
-				OBJ_253 /* Sources */,
-				OBJ_255 /* Headers */,
-				OBJ_257 /* Frameworks */,
+				OBJ_269 /* Sources */,
+				OBJ_271 /* Headers */,
+				OBJ_273 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,24 +251,6 @@
 			productName = ReactorKitRuntime;
 			productReference = "ReactorKit::ReactorKitRuntime::Product" /* ReactorKitRuntime.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		"ReactorKit::ReactorKitTests" /* ReactorKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_258 /* Build configuration list for PBXNativeTarget "ReactorKitTests" */;
-			buildPhases = (
-				OBJ_261 /* Sources */,
-				OBJ_267 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_277 /* PBXTargetDependency */,
-				OBJ_279 /* PBXTargetDependency */,
-			);
-			name = ReactorKitTests;
-			productName = ReactorKitTests;
-			productReference = "ReactorKit::ReactorKitTests::Product" /* ReactorKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -292,78 +268,57 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
-			productRefGroup = OBJ_209 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_215 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				"ReactorKit::ReactorKit" /* ReactorKit */,
 				"ReactorKit::ReactorKitRuntime" /* ReactorKitRuntime */,
-				"ReactorKit::ReactorKitTests" /* ReactorKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_223 /* Sources */ = {
+		OBJ_236 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_224 /* ActionSubject.swift in Sources */,
-				OBJ_225 /* AssociatedObjectStore.swift in Sources */,
-				OBJ_226 /* Reactor.swift in Sources */,
-				OBJ_227 /* StateRelay.swift in Sources */,
-				OBJ_228 /* StoryboardView.swift in Sources */,
-				OBJ_229 /* Stub.swift in Sources */,
-				OBJ_230 /* View.swift in Sources */,
+				OBJ_237 /* ActionSubject.swift in Sources */,
+				OBJ_238 /* Exports.swift in Sources */,
+				OBJ_239 /* IdentityEquatable.swift in Sources */,
+				OBJ_240 /* IdentityHashable.swift in Sources */,
+				OBJ_241 /* Reactor.swift in Sources */,
+				OBJ_242 /* StateRelay.swift in Sources */,
+				OBJ_243 /* StoryboardView.swift in Sources */,
+				OBJ_244 /* Stub.swift in Sources */,
+				OBJ_245 /* View.swift in Sources */,
+				OBJ_246 /* WeakMapTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_253 /* Sources */ = {
+		OBJ_269 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_254 /* ReactorKitRuntime.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_261 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_262 /* ActionSubjectTests.swift in Sources */,
-				OBJ_263 /* AssociatedObjectStoreTests.swift in Sources */,
-				OBJ_264 /* ReactorTests.swift in Sources */,
-				OBJ_265 /* StateRelayTests.swift in Sources */,
-				OBJ_266 /* ViewTests.swift in Sources */,
+				OBJ_270 /* ReactorKitRuntime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_236 /* PBXTargetDependency */ = {
+		OBJ_252 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "ReactorKit::ReactorKitRuntime" /* ReactorKitRuntime */;
-			targetProxy = 18E5072C235F97C200C0F939 /* PBXContainerItemProxy */;
-		};
-		OBJ_277 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "ReactorKit::ReactorKit" /* ReactorKit */;
-			targetProxy = 18E50732235F97C200C0F939 /* PBXContainerItemProxy */;
-		};
-		OBJ_279 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "ReactorKit::ReactorKitRuntime" /* ReactorKitRuntime */;
-			targetProxy = 18E50734235F97C200C0F939 /* PBXContainerItemProxy */;
+			targetProxy = 8EF57CF823B63366003DB744 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_221 /* Debug */ = {
+		OBJ_234 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -381,7 +336,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactorkit.ReactorKit;
+				PRODUCT_BUNDLE_IDENTIFIER = ReactorKit;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -393,10 +348,9 @@
 			};
 			name = Debug;
 		};
-		OBJ_222 /* Release */ = {
+		OBJ_235 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -414,7 +368,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactorkit.ReactorKit;
+				PRODUCT_BUNDLE_IDENTIFIER = ReactorKit;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -426,11 +380,10 @@
 			};
 			name = Release;
 		};
-		OBJ_251 /* Debug */ = {
+		OBJ_267 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -449,7 +402,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactorkit.ReactorKitRuntime;
+				PRODUCT_BUNDLE_IDENTIFIER = ReactorKitRuntime;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -460,11 +413,10 @@
 			};
 			name = Debug;
 		};
-		OBJ_252 /* Release */ = {
+		OBJ_268 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -483,68 +435,12 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactorkit.ReactorKitRuntime;
+				PRODUCT_BUNDLE_IDENTIFIER = ReactorKitRuntime;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				TARGET_NAME = ReactorKitRuntime;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
-		OBJ_259 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/ReactorKitRuntime/include",
-				);
-				INFOPLIST_FILE = ReactorKit.xcodeproj/ReactorKitTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = ReactorKitTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
-		OBJ_260 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/ReactorKitRuntime/include",
-				);
-				INFOPLIST_FILE = ReactorKit.xcodeproj/ReactorKitTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = ReactorKitTests;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
@@ -565,12 +461,11 @@
 					"SWIFT_PACKAGE=1",
 					"DEBUG=1",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -591,11 +486,10 @@
 					"$(inherited)",
 					"SWIFT_PACKAGE=1",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -615,29 +509,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_220 /* Build configuration list for PBXNativeTarget "ReactorKit" */ = {
+		OBJ_233 /* Build configuration list for PBXNativeTarget "ReactorKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_221 /* Debug */,
-				OBJ_222 /* Release */,
+				OBJ_234 /* Debug */,
+				OBJ_235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_250 /* Build configuration list for PBXNativeTarget "ReactorKitRuntime" */ = {
+		OBJ_266 /* Build configuration list for PBXNativeTarget "ReactorKitRuntime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_251 /* Debug */,
-				OBJ_252 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_258 /* Build configuration list for PBXNativeTarget "ReactorKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_259 /* Debug */,
-				OBJ_260 /* Release */,
+				OBJ_267 /* Debug */,
+				OBJ_268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
